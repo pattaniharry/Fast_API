@@ -1,0 +1,10 @@
+Path parameter - used when we require fixed number
+of parameter in the url 
+
+query parameter - used when we don't know the number 
+of parameter in url given by user 
+
+
+COMMANDS 
+
+to run : python -m uvicorn main:app --reload
