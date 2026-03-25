@@ -46,3 +46,5 @@ def greet_user(request:Request):
     age = request.query_params.get("age")
     city = request.query_params.get("city")
     return {"message": f"hello {name} from {city} who is {age} years old"}
+
+

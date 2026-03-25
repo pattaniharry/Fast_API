@@ -4,7 +4,19 @@ of parameter in the url
 query parameter - used when we don't know the number 
 of parameter in url given by user 
 
+HTTP Methods : 
+
+GET    : To get data from the server 
+POST   : To post/Send something to the server 
+PUT    : To update something in the server 
+DELETE : To Delete Data 
+
+
+
+
 
 COMMANDS 
 
 to run : python -m uvicorn main:app --reload
+
+
